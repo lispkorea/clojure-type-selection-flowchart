@@ -1,0 +1,46 @@
+I need to define a type in Clojure
+Clojure에서 type을 정의할 필요가 있어.
+
+
+
+Will the type need to extend a Java class or implement any interfaces?
+type이 Java class를 상속받을(extend) 필요가 있거나, Java interface를 구현(implement)해야할 필요가 있는가?
+
+
+Do you need to be able to refer to the class statically from Java?
+Java에서 정적으로 class를 참조가 가능하도록 해야하나?
+
+
+
+Will the type participate in Clojure protocols or be associated w/ performance-sensitive code?
+type이 Clojure protocol과 관계(participate)있거나, 성능이 중요한 코드와 관계가 있는가?
+
+
+
+Use a regular map
+일반적인 map을 사용해라.
+
+
+Is your class modeling a domain value thus benefiting from hash-map-like functionality and semantics
+class modeling이 hash-map과 같은 기능과 문법으로부터 이점을 얻을 수 있는 domain value가?
+
+
+Do you need to define multiple constructors
+multiple 생성자(constructor)를 정의해야할 필요가 있는가
+
+
+Do you need to extend an existing base class
+기존 base 클래스를 상속(extend)받아야 하는가?
+
+
+Do you need methods in addition to those defined by interfaces you're implementing?
+interface를 구현함으로써, 정의된것에 추가로 메소드를
+
+
+Do you need to define mutable fields
+mutable 필드를 정의할 필요가 있는가?
+
+
+Do you need to define any static methods
+static 메소드를 정의할 필요가 있는가?
+
